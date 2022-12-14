@@ -1,0 +1,14 @@
+#client_part{
+    padding: 80px 0px;
+}
+
+.client_list{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.client_list .client_item{}
+.client_list .client_item .img{}
+.client_list .client_item .img img{}

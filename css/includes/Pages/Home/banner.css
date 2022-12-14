@@ -1,0 +1,39 @@
+.banner_body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.banner_body .left_description{}
+
+.banner_body .left_description .designation{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(187, 179, 179);
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.banner_body .left_description .user_name{
+    font-size: 45px;
+    line-height: 45px;
+    margin: 10px 0px 30px;
+}
+
+.banner_body .left_description p{
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.banner_body .left_description ul{
+    display: flex;
+    gap: 20px;
+}
+
+/* .banner_body .left_description ul li{}
+.banner_body .left_description ul li a{}
+.banner_body .right_image{} */
+.banner_body .right_image .img{
+    clip-path: circle(60.5% at 80% 30%);
+}
+.banner_body .right_image .img img{}

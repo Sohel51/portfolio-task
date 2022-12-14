@@ -1,0 +1,91 @@
+.img img {
+    max-width: 100%;
+}
+
+/* button */
+.btn_green {
+    padding: 15px 25px;
+    background-color: var(--brand_color_deep);
+    border: 1px solid var(--brand_color_deep);
+    color: white;
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.btn_green:hover {
+    background-color: transparent;
+    border: 1px solid var(--brand_color_deep);
+    color: var(--brand_color_deep);
+}
+
+.btn_green_outline {
+    padding: 15px 25px;
+    border: 1px solid var(--brand_color_deep);
+    color: var(--brand_color_deep);
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.btn_green_outline:hover {
+    background-color: var(--brand_color_deep);
+    color: white;
+}
+
+.btn_gray {
+    padding: 15px 25px;
+    background-color: var(--gray);
+    border: 1px solid var(--gray);
+    color: white;
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.btn_gray:hover {
+    background-color: transparent;
+    border: 1px solid var(--gray);
+    color: var(--gray);
+}
+
+.btn_gray_outline {
+    padding: 15px 30px;
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    border-radius: 5px;
+    line-height: 50px;
+}
+
+.btn_gray_outline:hover {
+    background-color: var(--gray);
+    color: white;
+}
+
+.common_heading {
+    margin-bottom: 40px;
+}
+
+.common_heading h2 {
+    font-size: 26px;
+    line-height: 26px;
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.common_heading h2 span {
+    position: relative;
+    z-index: 99;
+}
+
+.common_heading h2::after {
+    position: absolute;
+    content: '';
+    width: 65px;
+    height: 100%;
+    background: rgb(9, 9, 121);
+    background: linear-gradient(90deg, rgba(9, 9, 121, 0) 33%, rgba(0, 255, 188, 0.28335084033613445) 100%);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}

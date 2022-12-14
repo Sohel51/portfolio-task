@@ -1,0 +1,11 @@
+@import "./includes/default.css";
+@import "./includes/layout.css";
+@import "./includes/left_part.css";
+@import "./includes/nav.css";
+@import "./includes/common.css";
+@import "./includes/Pages/Home/banner.css";
+@import "./includes/Pages/Home/counter.css";
+@import "./includes/Pages/Home/service.css";
+@import "./includes/Pages/Home/testimonial.css";
+@import "./includes/Pages/Home/client.css";
+@import "./includes/Pages/Home/pricing.css";
